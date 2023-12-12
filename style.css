@@ -1,0 +1,28 @@
+:root{
+    --colore-evidenziato: aliceblue;
+}
+
+html{
+    font-size: 18px;
+}
+
+.item{
+    border-color: red;
+    border-style: inset;
+    border-width: 3px;
+    max-width: 10rem;
+}
+
+.container{
+    border-color: var(--colore-evidenziato);
+    border-style: inset;
+    border-width: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item > p::first-letter {
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
